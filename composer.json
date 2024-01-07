@@ -1,0 +1,27 @@
+{
+    "name": "unityithub/unitycrm-laravel",
+    "description": "MT-5",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Unityithub\\UnitycrmLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karan",
+            "email": "karan@itonix.co"
+        }
+    ],
+    "require": {
+        "unityithub/unitycrm-php": "^1.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Unityithub\\UnitycrmLaravel\\LaravelMt5Provider"
+            ]
+        }
+    }
+}
